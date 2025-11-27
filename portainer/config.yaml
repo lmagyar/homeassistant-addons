@@ -1,0 +1,27 @@
+---
+name: Portainer
+version: 2.6.2
+slug: portainer
+description: Manage your Docker environment with ease
+url: https://github.com/lmagyar/homeassistant-addon-portainer
+codenotary: lmagyar1973@gmail.com
+advanced: true
+ingress: true
+ingress_stream: true
+startup: services
+panel_icon: mdi:docker
+arch:
+  - aarch64
+  - amd64
+  - armv7
+init: false
+ports:
+  8000/tcp: null
+hassio_api: true
+docker_api: true
+schema:
+  agent_secret: str?
+backup_exclude:
+  - backups
+  - docker_config/cli-plugins
+image: ghcr.io/lmagyar/{arch}-addon-portainer
