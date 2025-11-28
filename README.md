@@ -1,11 +1,13 @@
 
+# ***!!! THIS IS A TEST REPO !!!***
+
+# ***!!! DO NOT USE IT, DO NOT INSTALL IT !!!***
+
+---
+
 # My Home Assistant Add-ons
 
-***THIS IS A TEST REPO***
-
 This is a reference to my add-ons as of 2025.11.27, not updated later.
-
-***THIS IS A TEST REPO***
 
 ## Installation
 
